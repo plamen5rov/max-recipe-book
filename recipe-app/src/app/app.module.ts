@@ -27,6 +27,6 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HeaderComponent]
+  bootstrap: [AppComponent, HeaderComponent, RecipesComponent, ShoppingListComponent]
 })
 export class AppModule { }
